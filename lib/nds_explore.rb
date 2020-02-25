@@ -12,9 +12,9 @@ end
 
 def print_first_directors_movie_titles
   counter = 0 
-  output = directors_database[x]
+  output = []
   while counter < directors_database[x].length do
-    output = 
+    output = directors_database[x][:titles].push
 end
 
 
