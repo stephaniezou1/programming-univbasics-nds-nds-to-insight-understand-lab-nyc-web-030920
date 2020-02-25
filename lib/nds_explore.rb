@@ -17,6 +17,7 @@ def print_first_directors_movie_titles
     output.push(directors_database[x][:titles])
     counter += 1
     puts output
+  end
 end
 
 
