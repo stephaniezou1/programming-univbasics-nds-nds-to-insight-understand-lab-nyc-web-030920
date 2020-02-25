@@ -13,7 +13,8 @@ end
 def print_first_directors_movie_titles
   counter = 0 
   output = directors_database
-  while counter < directors_database.length 
+  while counter < directors_database.length do
+    
 end
 
 
