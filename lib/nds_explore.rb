@@ -1,6 +1,7 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 require 'pp'
+require 'pry'
 
 directors_database
 # Call the method directors_database to retrieve the NDS
@@ -12,6 +13,7 @@ end
 
 def print_first_directors_movie_titles
   counter = 0 
+  binding.pry
   while counter < directors_database[0][:movies].length do
     puts directors_database[0][:movies][counter][:title]
     counter += 1
