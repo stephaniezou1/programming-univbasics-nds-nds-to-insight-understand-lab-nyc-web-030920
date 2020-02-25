@@ -15,6 +15,8 @@ def print_first_directors_movie_titles
   output = []
   while counter < directors_database[x].length do
     output.push(directors_database[x][:titles])
+    counter += 1
+    puts output
 end
 
 
